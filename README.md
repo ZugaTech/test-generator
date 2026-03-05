@@ -1,6 +1,6 @@
 # testgen-ai 🤖
 
-AI-powered unit test generator for Python. Analyzes your source code and generates comprehensive `pytest` test cases using GPT-4o.
+AI-powered unit test generator for Python. Analyzes your source code and generates `pytest` test cases using GPT-4o.
 
 ## Features
 
@@ -14,21 +14,21 @@ AI-powered unit test generator for Python. Analyzes your source code and generat
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/test-generator.git
-   cd test-generator
-   ```
+ ```bash
+ git clone https://github.com/your-username/test-generator.git
+ cd test-generator
+ ```
 
 2. **Install dependencies**:
-   ```bash
-   pip install .
-   ```
+ ```bash
+ pip install.
+ ```
 
 3. **Configure OpenAI**:
-   Create a `.env` file with your API key:
-   ```env
-   OPENAI_API_KEY=your-sk-...
-   ```
+ Create a `.env` file with your API key:
+ ```env
+ OPENAI_API_KEY=your-sk-...
+ ```
 
 ## Usage
 
