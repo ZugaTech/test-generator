@@ -1,0 +1,21 @@
+[project]
+name = "testgen-ai"
+version = "0.1.0"
+description = "AI-powered unit test generator for Python"
+dependencies = [
+    "typer[all]",
+    "rich",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "pytest",
+    "pytest-asyncio",
+    "black",
+    "tiktoken",
+]
+
+[project.scripts]
+testgen = "testgen.cli:app"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
