@@ -1,10 +1,10 @@
-# testgen-ai 🤖
+﻿# testgen-ai 🤖
 
 AI-powered unit test generator for Python. Analyzes your source code and generates `pytest` test cases using GPT-4o.
 
 ## Features
 
-- **AST Analysis**: Extracts function metadata, arguments, and cyclomatic complexity.
+- **AST Analysis**: Extracts function metadata, arguments and cyclomatic complexity.
 - **Test Detection**: Identifies functions that lack test coverage.
 - **AI Generation**: Creates high-quality tests using GPT-4o, including edge cases and mocks.
 - **Interactive Review**: Review and edit generated tests in a Rich TUI before saving.
